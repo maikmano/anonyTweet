@@ -24,7 +24,7 @@ Essas propriedades são as credenciais da API do Twitter, que podem ser obtidas 
 
 Para executar, siga os passos abaixo:
 ```bash
-  git clone https://github.com/seu-usuario/sistema-de-mensagens-anonimas-para-twitter.git
+  https://github.com/maikmano/anonyTweet.git
 ```
 
 ```bash
