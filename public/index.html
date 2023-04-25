@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mistery Tweet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-RAvI58CKymo5J+kNiQOKO9O1t60ySC5iEu1G0YzJ3q0+2fWc/fKkzcJxmPj+9MIvM8BzoN5+5d5/VN2QX9itgQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+
+    
+  </head>
+  
+  <body>
+    <div class="container">
+      <h1 class="title">Mistery Tweet</h1>
+      <p>Escreva cartas anonimas e marque a pessoa que ira receber</p>
+      <form action="/post" method="POST">
+        <div class="input-group">
+          <label class="label" for="message">Mensagem</label>
+          <textarea class="textarea" name="message" id="message" cols="30" rows="10" placeholder="Escreva sua mensagem aqui"></textarea>
+        </div>
+        <div class="input-group">
+          <label class="label" for="recipient">Destinatário</label>
+          <div class="input-wrapper">
+            <i class="fa fa-at icon"></i>
+            <input class="input" type="text" name="recipient" id="recipient" placeholder="Digite o @ do destinatário">
+          </div>
+        </div>
+        <button class="button" type="submit" style="float: right;">
+          <i class="fa fa-paper-plane icon"></i>
+          Enviar
+        </button>
+      </form>
+    </div>
+  </body>
+
+  <script src="https://kit.fontawesome.com/47a0634460.js" crossorigin="anonymous"></script>
+
+</html>
