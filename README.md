@@ -4,6 +4,9 @@
 
 Este é um sistema simples de mensagens anônimas para usuários do Twitter. Ele permite que os usuários enviem mensagens anônimas para qualquer conta do Twitter, sem a necessidade de revelar sua identidade. O sistema usa a API v1.1 do Twitter para postar as mensagens e um filtro de palavras ofensivas para garantir que as mensagens não contenham palavras inapropriadas.
 
+## Site:
+http://anonytwt.online/
+
 
 ## Configuração
 
